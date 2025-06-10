@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0px 20px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 30%;
+  justify-content: end;
+}
+
+.create-btn {
+  border: none;
+  width: fit-content;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.create-btn:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.left-nav {
+  flex: 30%;
+}
+.middle-nav {
+  flex: 40%;
+}
+
+.logo {
+  width: 70px;
+}
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.input-box {
+  background-color: chartreuse;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+input {
+  width: 100%;
+  height: 100%;
+  text-indent: 10px;
+  outline: none;
+  border: none;
+}
+.mic {
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: rgb(225, 225, 225);
+}
+
+.create-btn i {
+  margin-right: 5px;
+}
+
+.notification {
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.notification:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.notification button {
+  background: none;
+  border: none;
+}
+.notification div {
+  width: fit-content;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 0px 3px;
+  background-color: rgb(196, 5, 5);
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

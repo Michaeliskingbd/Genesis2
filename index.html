@@ -2,48 +2,41 @@
 <html>
   <head>
     <title>May Cohort</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
   </head>
-
-  <style>
-    body {
-      padding: 0;
-      margin: 0;
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: black;
-      color: white;
-      padding: 10px 20px;
-    }
-    ul {
-      display: flex;
-      gap: 20px;
-      list-style: none;
-    }
-    .logo {
-      width: 140px;
-      cursor: pointer;
-    }
-    /* a {
-      text-decoration: none;
-      color: inherit;
-    } */
-  </style>
 
   <body>
     <nav>
-      <div class="left-box">
-        <img class="logo" src="assets/maylogo.svg" alt="Logo" />
+      <div class="left-nav">
+        <img class="logo" src="assets/youtube.png" alt="Logo" />
       </div>
-      <div class="middle-box">
-        <ul>
-          <li><a href="#">About</a></li>
-        </ul>
+
+      <div class="middle-nav">
+        <div class="input-box">
+          <input type="text" placeholder="Search" />
+        </div>
       </div>
-      <div class="right-box">
-        <button>Let's Connect</button>
+      <button class="mic"><i class="fa-solid fa-microphone"></i></button>
+
+      <div class="right-nav">
+        <button class="create-btn">
+          <i class="fa-solid fa-plus"></i> Create
+        </button>
+
+        <div class="notification">
+          <button><i class="fa-regular fa-bell"></i></button>
+          <div>9+</div>
+        </div>
+
+        <img
+          class="profile-image"
+          src="assets/BILLIE ELLISH FLYETR.jpg"
+          alt="Profile picture"
+        />
       </div>
     </nav>
   </body>
