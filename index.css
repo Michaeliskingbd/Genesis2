@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
 }
+h2,
+p,
+h1 {
+  margin: 0;
+}
 
 nav {
   display: flex;
@@ -104,4 +109,28 @@ input {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+/* CSS FOR THE VIDEOS */
+.video-card {
+  width: 400px;
+}
+.thumbnail {
+  width: 100%;
+}
+
+.video-info {
+  display: flex;
+  gap: 12px;
+}
+.video-details h2 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.video-details p,
+span {
+  font-size: 12px;
+}
+.profile-img img {
+  width: 35px;
 }
